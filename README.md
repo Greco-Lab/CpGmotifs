@@ -119,3 +119,4 @@ runGitHub("CpGmotifs", "Greco-Lab")
   # run on the host port 8787 (or whaterver port you want to map on your system)
   runApp("./CpGmotifs/")
 ```
+
