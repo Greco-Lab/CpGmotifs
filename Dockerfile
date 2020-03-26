@@ -38,11 +38,11 @@ RUN wget http://meme-suite.org/meme-software/5.0.5/meme-5.0.5.tar.gz && tar -xvf
 RUN wget http://meme-suite.org/meme-software/Databases/motifs/motif_databases.12.18.tgz && tar -xvf motif_databases.12.18.tgz && rm motif_databases.12.18.tgz
 
 # copy the app to the image
-RUN mkdir /root/app
-COPY app /root/app
+RUN mkdir /root/CpGmotifs
+COPY CpGmotifs /root/CpGmotifs
 
 COPY Rprofile.site /usr/lib/R/etc/
 
 EXPOSE 3838
 
-CMD ["R", "-e", "shiny::runApp('/root/app')"]
+CMD ["R", "-e", "shiny::runApp('/root/CpGmotifs')"]
