@@ -85,7 +85,7 @@ runGitHub("CpGmotifs", "Greco-Lab")
 ### or from a local copy
 ```R
   # Clone the git repository
-  git clone https://github.com/Greco-Lab/FunMappOne FunMappOne
+  git clone https://github.com/Greco-Lab/CpGmotifs CpGmotifs
   # Start R session and run by using runApp()
   library(shiny)
   library(shinyjs)
