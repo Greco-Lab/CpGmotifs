@@ -14,8 +14,6 @@ beds_dir <- "beds"
 fasta_dir <- "fasta"
 meme_out_fold <- "meme_out"
 
-
-
 skin <- Sys.getenv("DASHBOARD_SKIN")
 skin <- tolower(skin)
 if (skin == "")
