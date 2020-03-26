@@ -27,6 +27,31 @@ The FunMappOne docker image is available at https://hub.docker.com/r/grecolab/cp
      ghostscript
 ```
 
+### PERL dependencies
+
+```PERL
+  File::Which 
+  HTML::PullParser 
+  HTML::Template 
+  HTML::TreeBuilder
+  JSON XML::Simple
+  XML::Parser::Expat
+```
+
+### meme suite
+```BASH
+   wget http://meme-suite.org/meme-software/5.0.5/meme-5.0.5.tar.gz
+   tar -xvf meme-5.0.5.tar.gz && rm meme-5.0.5.tar.gz && cd meme-5.0.5/
+   ./configure --prefix=/meme --with-url=http://meme-suite.org/ --enable-build-libxml2 --enable-build-libxslt     make
+   make install 
+```
+
+###  meme motifs database
+```BASH
+  wget http://meme-suite.org/meme-software/Databases/motifs/motif_databases.12.18.tgz
+  tar -xvf motif_databases.12.18.tgz
+```
+
 ### Install R dependencies
 
 ```R
