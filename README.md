@@ -41,9 +41,11 @@ The FunMappOne docker image is available at https://hub.docker.com/r/grecolab/cp
 ### meme suite
 ```BASH
    wget http://meme-suite.org/meme-software/5.0.5/meme-5.0.5.tar.gz
-   tar -xvf meme-5.0.5.tar.gz && rm meme-5.0.5.tar.gz && cd meme-5.0.5/
-   ./configure --prefix=/meme --with-url=http://meme-suite.org/ --enable-build-libxml2 --enable-build-libxslt     make
-   make install 
+   tar -xvf meme-5.0.5.tar.gz && rm meme-5.0.5.tar.gz
+   cd meme-5.0.5/
+   ./configure --prefix=/meme --with-url=http://meme-suite.org/ --enable-build-libxml2 --enable-build-libxslt
+   make
+   make install
 ```
 
 ###  meme motifs database
