@@ -6,11 +6,7 @@ A user-friendly graphical interface that allows searching and visualising motifs
 
 If you don't have docker installed on your system you can install it by following the instructions at  https://www.docker.com/get-docker.
 
-The FunMappOne docker image is available at https://hub.docker.com/r/grecolab/cpgmotifs
-
-
-
-
+The CpGmotifs docker image is available at https://hub.docker.com/r/grecolab/cpgmotifs
 
 
 ## Using CpGmotifs source from GitHub
