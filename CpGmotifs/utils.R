@@ -160,10 +160,6 @@ motif_similiarity <- function(types_mot) {
   mat_aln_d_all
 }
 
-
-
-
-
 annotate_tfbs <- function(types,types_mot, meme_out_fold, meme_bin_path, motif_dbs, tf_db,progress_ind = NULL) {
   
   #setup parallel backend to use 8 processors
