@@ -7,6 +7,14 @@ A user-friendly graphical interface that allows searching and visualising motifs
 If you don't have docker installed on your system you can install it by following the instructions at  https://www.docker.com/get-docker.
 
 The CpGmotifs docker image is available at https://hub.docker.com/r/grecolab/cpgmotifs
+<<<<<<< HEAD
+=======
+
+
+##  
+##   
+
+>>>>>>> 04152a4240b5c2a0e4b6dd58abd2d4e2a55b3100
 
 
 ## Using CpGmotifs source from GitHub
